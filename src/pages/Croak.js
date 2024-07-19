@@ -4,7 +4,7 @@ import PdfViewer from "../components/PdfViewer";
 
 
 const Croak = () => {
-  const memoryURI = '/automation-app/Croak.pdf';
+  const memoryURI = '/Croak.pdf';
   return(
     <div>
        <h2> Croak </h2>
