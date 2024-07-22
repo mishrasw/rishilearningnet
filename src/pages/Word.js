@@ -5,7 +5,7 @@ const Word = () => {
   return(
 <div class="row-container">
   <br />
-<iframe src="https://wordsearch.io/"  width="100%" height="400px" ></iframe>
+<iframe src="https://spellbee.org/"  width="100%" height="800px" ></iframe>
 </div>
   )
  };
