@@ -5,7 +5,7 @@ const Bee = () => {
   return(
 <div class="row-container">
   <br />
-<iframe src="https://spellbee.org/unlimited?id=ndemouv"  width="100%" height="800px" ></iframe>
+<iframe src="https://spellbee.io/"  width="100%" height="800px" ></iframe>
 </div>
   )
  };
