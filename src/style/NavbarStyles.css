@@ -1,0 +1,109 @@
+/* src/Navbar.css */
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: linear-gradient(45deg, #3a3b3a, #303b4b);
+    box-shadow: 0 4px 6px rgba(25, 24, 24, 0.1);
+    position: relative;
+
+  }
+
+  .logo-container {
+    flex: 0 0 auto;
+    padding-left: 10px;
+  }
+  
+
+  .nav-links {
+    flex: 1 1 auto;
+    list-style: none;
+    display: flex;
+    padding: center;
+    margin: 0;
+    height: 15px;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  
+  
+.nav-links li {
+    margin: 0 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    transition: color 0.3s;
+  }
+
+  
+  .nav-links li:hover {
+    color: #ff6347;
+  }
+  
+  .nav-links a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 1.2rem;
+    height: 15px;
+  }
+  
+  
+.mobile-menu-icon {
+    display: none;
+    font-size: 2rem;
+    color: rgb(7, 7, 7);
+  }
+  
+  .nav-links-mobile {
+    display: none;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .navbar {
+      flex-direction: row;
+    }
+    .nav-links {
+      display: none;
+      flex-direction: column;
+    }
+    .mobile-menu-icon {
+      display: block;
+      flex-direction: row;
+      position: relative;
+      
+    }
+    .nav-links-mobile {
+      display: table;
+      flex-direction: column;
+      width: 100%;
+      position: absolute;
+      top: 60px;
+      background: linear-gradient(45deg, #380388b7, #5b45edb2);
+      z-index: 1;
+      box-shadow: 0 4px 6px rgba(1, 30, 43, 0.372);
+      height:90vh;
+      animation: fadeInRight 1s ease-in-out;
+
+    }
+    .nav-links-mobile li {
+      text-transform: uppercase;
+      font-weight: bold;
+      color: white;
+      font-size: 20px;
+      transition: color 0.8s;
+      margin-top: 25px;
+    
+      
+    }
+    .nav-links-mobile a {
+      justify-content: center;
+      display:grid;
+    }
+  }

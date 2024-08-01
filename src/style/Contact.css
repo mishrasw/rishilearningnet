@@ -1,7 +1,8 @@
 .contact {
-  width: 100%;
-  height: 90vh;
+  width: auto;
+  height: auto;
   display: flex;
+  
 }
 .title {
   align-items: center;
