@@ -83,13 +83,15 @@ body {
       display: table;
       flex-direction: column;
       width: 100%;
+      height: 100%;
       position: absolute;
       top: 60px;
-      background: linear-gradient(45deg, #380388b7, #5b45edb2);
+      background: linear-gradient(45deg, #070707f1, #0a0a0aef);
       z-index: 1;
       box-shadow: 0 4px 6px rgba(1, 30, 43, 0.372);
-      height:90vh;
+      height:90px;
       animation: fadeInRight 1s ease-in-out;
+      justify-content: center;
 
     }
     .nav-links-mobile li {
@@ -105,5 +107,6 @@ body {
     .nav-links-mobile a {
       justify-content: center;
       display:grid;
+      text-decoration: none;
     }
   }
