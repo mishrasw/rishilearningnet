@@ -1,13 +1,13 @@
 import React, {useState} from "react";
 import "../style/Contact.css"
 
-const Word = () => {
+const Quiz = () => {
   return(
 <div class="row-container">
   <br />
-<iframe src="https://websim.ai/c/954GssG70xbQbQXMN"  width="100%" height="800px" ></iframe>
+<iframe src="https://websim.ai/c/yKauu4GPEMxeTxte1"  width="100%" height="800px" ></iframe>
 </div>
   )
  };
 
-export default Word;
+export default Quiz;

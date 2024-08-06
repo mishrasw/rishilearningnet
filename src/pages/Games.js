@@ -8,6 +8,8 @@ import Clock from "./Clock";
 import Bubble from "./Bubble";
 import Bee from "./Bee";
 import Picword from "./PicWord";
+import Quiz from "./Quiz";
+import Chess from "./Chess";
 
 
 const Games = () => {
@@ -23,6 +25,8 @@ const Games = () => {
       <Link to="/Bubble" style={{ color: 'white' }}>Bubble</Link>&nbsp;&nbsp;
       <Link to="/Bee" style={{ color: 'white' }}>Word Bee</Link>&nbsp;&nbsp;
       <Link to="/Picword" style={{ color: 'white' }}>PicWord</Link>&nbsp;&nbsp;
+      <Link to="/Quiz" style={{ color: 'white' }}>Quiz</Link>&nbsp;&nbsp;
+      <Link to="/Chess" style={{ color: 'white' }}>Chess</Link>&nbsp;&nbsp;
       </div>
         <Switch>
           <Route path="/Mario"  exact component={Mario} />
@@ -32,7 +36,8 @@ const Games = () => {
           <Route path="/Bubble"  exact component={Bubble} />
           <Route path="/Bee"  exact component={Bee} />
           <Route path="/Picword"  exact component={Picword} />
-        
+          <Route path="/Quiz"  exact component={Quiz} />
+          <Route path="/Chess"  exact component={Chess} />
         </Switch>
       </Router> 
       </div>
